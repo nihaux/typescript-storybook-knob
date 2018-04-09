@@ -1,0 +1,35 @@
+{
+  "name": "typescript-storybook-knob",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@storybook/addon-knobs": "^3.4.0",
+    "@types/storybook__addon-knobs": "^3.2.3",
+    "@types/storybook__react": "^3.0.7",
+    "awesome-typescript-loader": "^5.0.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts-ts": "2.14.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.0",
+    "@storybook/addon-links": "^3.4.0",
+    "@storybook/addons": "^3.4.0",
+    "@storybook/react": "^3.4.0",
+    "@types/jest": "^22.2.2",
+    "@types/node": "^9.6.2",
+    "@types/react": "^16.3.5",
+    "@types/react-dom": "^16.0.4",
+    "babel-core": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "typescript": "^2.8.1"
+  }
+}
